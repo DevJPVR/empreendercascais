@@ -16,6 +16,13 @@ export default function GetItButton({ type, buttonText, link }) {
       </a>
     )
   }
+  else if(type === "empreender"){
+    return (
+      <a href={link} target='_blank' className="get-it-button" rel="noreferrer">
+        Reserve o seu lugar!
+      </a>
+    )
+  }
   else if(type === "appstore"){
     return (
       <a href={link} className="get-it-button">

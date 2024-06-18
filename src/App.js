@@ -31,14 +31,14 @@ import detailsBg3 from './images/detailsbg3.png';
 function App() {
   return (
     <div className="App" id="app">
-
+{/* 
       <NavBar>
         <NavItems
           logo={logo}
           logoHref={CONFIG.logoHref}
           items={CONFIG.items}
         ></NavItems>
-      </NavBar>
+      </NavBar> */}
 
       <div className="AppContainer">
         {CONFIG.introAnchor ?
@@ -76,9 +76,15 @@ function App() {
 
         {CONFIG.midAnchor ?
           <SideBySide id={CONFIG.midAnchor}>
-            <SideImage>
-              {preview2}
-            </SideImage>
+            <div className="video-section">
+            <iframe
+        src="https://player.vimeo.com/video/961661007?badge=0&autopause=0&player_id=0&app_id=58479"
+        frameBorder="0"
+        allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+        title="Empreender Cascais"
+      ></iframe>
+</div>
             <SideText
               title={CONFIG.midTitle}
               description={CONFIG.midDescription}
@@ -90,7 +96,7 @@ function App() {
           </SideBySide>
         : <></>}
 
-        {CONFIG.botAnchor ?
+        {/* {CONFIG.botAnchor ?
           <Details
             title={CONFIG.botTitle}
             id={CONFIG.botAnchor}
@@ -110,7 +116,7 @@ function App() {
                 ))
               )) }
           </Details>
-        : <></>}
+        : <></>} */}
 
         {CONFIG.faqAnchor ?
           <Details
@@ -131,7 +137,7 @@ function App() {
 
       </div>
       <div className="AppBottomContainer">
-        <ContactForm>
+        {/* <ContactForm>
             <ContactInput
               type="name"
               placeholder="Your name"
@@ -157,14 +163,15 @@ function App() {
               id="submit-button"
               value="Send"
             ></ContactButton>
-          </ContactForm>
+          </ContactForm> */}
 
-          <Footer
+
+          {/* <Footer
             logo={logoAlternative}
             logoHref={CONFIG.footerLogoHref}
             text={CONFIG.footerText}
           >
-          </Footer>
+          </Footer> */}
         </div>
     </div>
   );
