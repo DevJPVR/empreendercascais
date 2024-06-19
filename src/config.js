@@ -29,7 +29,7 @@ export const featuresDetails = [
 
 /*MIDDLE TEXT*/
 export const midAnchor = "preview";
-export const midTitle = "Empreender";
+export const midTitle = "Inscreva-se!";
 export const midDescription = "Estamos ansiosos para recebê-lo no Empreender Cascais, e juntos construirmos um futuro cheio de inovações e oportunidades. Faça já a sua inscrição através do link abaixo";
 export const midButtonType = "empreender";
 export const midButtonText = "";
