@@ -65,7 +65,7 @@ export const faqDetails = [
   {"Onde acontece o Empreender Cascais?":"Acontece na IBR Cascais, no endereço: R. São Francisco 618 1Adroana, 2645-019 Alcabideche"},
   {"Qual o objetivo do empreender cascais?":"Capacitar e conectar empreendedores e profissionais de todas"},
   {"Quem é o idealizador do Empreender Cascais?":"Pastor Marcos nunes"},
-  {"Quais são as oportunidades que o Empreender Cascais oferece ?":"Palestras inspiradoras com  Líderes que compartilharão suas experiências e insights, Workshops Práticos: Sessões interativas para desenvolver habilidades essenciais, Oportunidades de Networking: Conecte-se com outros empreendedores e profissionais."},
+  {"Quais são as oportunidades que o Empreender Cascais oferece?":"Palestras inspiradoras com  Líderes que compartilharão suas experiências e insights, Workshops Práticos: Sessões interativas para desenvolver habilidades essenciais, Oportunidades de Networking: Conecte-se com outros empreendedores e profissionais."},
   {"Como posso participar do empreender cascais?":"Basta clicar no botão Reserve o seu lugar, preencher o formulario e efetuar a taxa de inscrição de €10.00 Euros"},
 ];
 //Background image name: detailsbg3.png
